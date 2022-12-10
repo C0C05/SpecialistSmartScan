@@ -18,6 +18,10 @@ Puedes instalarlas ejecutando el siguiente comando:
 
 ```pip install -r requirements.txt```
 
+Si se ejecuta en linux aparte de nmap también necesitará el aplicativo xclip, este se instala con el siguiente comando:
+
+```sudo apt install xclip```
+
 El script cuenta con los siguientes argumentos:
 
 - `-r` o `--rango`: permite especificar un rango de direcciones IP a escanear.
@@ -38,14 +42,3 @@ Este comando escaneará todos los puertos abiertos en el host especificado, en e
 
 Este comando escaneará la dirección IP `192.168.1.5` en busca de los puertos especificados en la lista y mostrará información sobre cada puerto abierto encontrado.
 
-
-Acciones necesarias antes de ejecutar el script:
-
-**Instalar XCLIP en linux con:**
-
-```sudo apt install xclip```
-
-
-**Instalar nmap en linux con:**
-
-```sudo apt install nmap```
