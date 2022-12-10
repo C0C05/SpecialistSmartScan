@@ -1,0 +1,6 @@
+colorama==0.4.6
+nmap==0.0.1
+pyfiglet==0.8.post1
+pyperclip==1.8.2
+python_nmap==0.7.1
+scapy==2.4.5
