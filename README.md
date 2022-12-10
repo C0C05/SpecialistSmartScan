@@ -6,6 +6,6 @@
 ```sudo apt install xclip```
 
 
-**Instlar nmap en linux con:**
+**Instalar nmap en linux con:**
 
 ```sudo apt install nmap```
