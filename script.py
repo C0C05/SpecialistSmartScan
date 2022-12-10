@@ -94,8 +94,8 @@ def main():
                 for i in range(1, 1024):
                     thread1 = threading.Thread(target=port_scan, args=(parse.scan, i), daemon=True)
                     thread1.start()
-                print(Fore.GREEN+ "\n[-]"+Fore.YELLOW+" Copiando al clipboard los siguientes puertos: "+Fore.CYAN+"\"{}\"".format(str(o))+Fore.YELLOW+" para poder usar el parametro -p correctamente\n")
                 thread1.join()
+                print(Fore.GREEN+ "\n[-]"+Fore.YELLOW+" Copiando al clipboard los siguientes puertos: "+Fore.CYAN+"\"{}\"".format(str(o))+Fore.YELLOW+" para poder usar el parametro -p correctamente\n")
                 portsToCopy = "\"{}\"".format(str(o))
                 pyperclip.copy(portsToCopy)
                 fin=time.time() - inicio
