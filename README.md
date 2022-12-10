@@ -1,7 +1,22 @@
 
-Este script es un escáner de red que permite escanear hosts activos en un rango de direcciones IP y puertos abiertos en una dirección IP específica. Utiliza la librería `scapy` para escanear hosts y `nmap` para escanear puertos.
+# SpecialistSmartScan
 
-Para utilizar este script, es necesario tener instaladas las librerías `scapy`, `colorama`, `argparse`, `nmap` y `pyfiglet`. Puedes instalarlas con el comando `pip install <nombre_de_la_libreria>`.
+SpecialistSmartScan es un script de escaneo de red que permite realizar escaneos de hosts y puertos en un rango de direcciones IP. Además, permite obtener información detallada sobre los servicios que se encuentran en cada puerto escaneado.
+
+## Instalación
+
+Para usar SpecialistSmartScan es necesario instalar las siguientes dependencias:
+
+* scapy
+* colorama
+* argparse
+* nmap
+* pyfiglet
+* pyperclip
+
+Puedes instalarlas ejecutando el siguiente comando:
+
+```pip install -r requirements.txt```
 
 El script cuenta con los siguientes argumentos:
 
