@@ -110,4 +110,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    Stile.RESET_ALL
+    Style.RESET_ALL
