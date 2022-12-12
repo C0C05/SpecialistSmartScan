@@ -110,4 +110,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    Style.RESET_ALL
+    print(Style.RESET_ALL)
